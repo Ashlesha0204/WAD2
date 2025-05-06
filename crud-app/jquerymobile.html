@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple jQuery Mobile Page</title>
+    <!-- jQuery and jQuery Mobile CDN -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Page 1 -->
+    <div data-role="page" id="home">
+
+        <div data-role="header">
+            <h1>Welcome</h1>
+        </div>
+
+        <div data-role="content">
+            <p>This is a simple jQuery Mobile web page.</p>
+            <a href="#about" class="ui-btn">Go to About Page</a>
+        </div>
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+    </div>
+
+    <!-- Page 2 -->
+    <div data-role="page" id="about">
+
+        <div data-role="header">
+            <h1>About</h1>
+        </div>
+
+        <div data-role="content">
+            <p>This is the About page. jQuery Mobile makes it easy!</p>
+            <a href="#home" class="ui-btn">Back to Home</a>
+        </div>
+
+        <div data-role="footer">
+            <h4>About Footer</h4>
+        </div>
+    </div>
+
+</body>
+
+</html>
